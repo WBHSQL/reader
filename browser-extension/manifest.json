@@ -1,0 +1,14 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Reader Exact Article Capture",
+  "version": "0.1.0",
+  "description": "Capture the exact DOM text of WeChat articles into the local Reader.",
+  "permissions": [],
+  "host_permissions": ["http://127.0.0.1:8765/*"],
+  "background": {"service_worker": "background.js"},
+  "content_scripts": [{
+    "matches": ["https://mp.weixin.qq.com/*"],
+    "js": ["capture.js"],
+    "run_at": "document_idle"
+  }]
+}
