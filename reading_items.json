@@ -1,0 +1,14 @@
+[
+  {
+    "id": "demo-stop-project",
+    "title": "When should a project stop expanding?",
+    "source": "Demo",
+    "topic": "decision making",
+    "estimated_minutes": 6,
+    "why_selected": "Demonstrates the blind-first reading flow with synthetic content.",
+    "background": "A small software project is technically feasible, but each additional feature adds maintenance cost. There is still little evidence that users need the larger scope.",
+    "question": "Would you keep building, or pause and validate demand first? Which variables matter most?",
+    "author_reasoning": "Technical feasibility and product value are separate questions. When demand is the largest uncertainty, the cheapest useful next step is to test actual usage before expanding engineering scope.",
+    "author_conclusion": "Pause scope expansion, validate sustained use with the smallest credible test, and only then invest in a broader implementation."
+  }
+]
